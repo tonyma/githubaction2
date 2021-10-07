@@ -7,6 +7,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      - name: npm install
+        run: npm
       - name: Hello workd action setup
         id: hello
         uses: ./
