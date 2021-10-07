@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello workd action setup
         id: hello
-        uses: action/github-action2@v1
+        uses: action/githubaction2@v1
         with:
           who-to-greet: 'Tony'
       - name: Get the output time
