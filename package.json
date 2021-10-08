@@ -19,7 +19,9 @@
   "homepage": "https://github.com/tonyma/githubaction2#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
     "@vercel/ncc": "^0.31.1"
   }
 }
